@@ -1,0 +1,43 @@
+/*
+ * Board
+ */
+.blue .cg-wrap {
+  background-image: url('../images/chess-elements/board/blue.svg');
+}
+
+.merida .cg-wrap piece.pawn.white {
+  background-image: url('../images/chess-elements/pieces/merida/wP.svg');
+}
+.merida .cg-wrap piece.bishop.white {
+  background-image: url('../images/chess-elements/pieces/merida/wB.svg');
+}
+.merida .cg-wrap piece.knight.white {
+  background-image: url('../images/chess-elements/pieces/merida/wN.svg');
+}
+.merida .cg-wrap piece.rook.white {
+  background-image: url('../images/chess-elements/pieces/merida/wR.svg');
+}
+.merida .cg-wrap piece.queen.white {
+  background-image: url('../images/chess-elements/pieces/merida/wQ.svg');
+}
+.merida .cg-wrap piece.king.white {
+  background-image: url('../images/chess-elements/pieces/merida/wK.svg');
+}
+.merida .cg-wrap piece.pawn.black {
+  background-image: url('../images/chess-elements/pieces/merida/bP.svg');
+}
+.merida .cg-wrap piece.bishop.black {
+  background-image: url('../images/chess-elements/pieces/merida/bB.svg');
+}
+.merida .cg-wrap piece.knight.black {
+  background-image: url('../images/chess-elements/pieces/merida/bN.svg');
+}
+.merida .cg-wrap piece.rook.black {
+  background-image: url('../images/chess-elements/pieces/merida/bR.svg');
+}
+.merida .cg-wrap piece.queen.black {
+  background-image: url('../images/chess-elements/pieces/merida/bQ.svg');
+}
+.merida .cg-wrap piece.king.black {
+  background-image: url('../images/chess-elements/pieces/merida/bK.svg');
+}

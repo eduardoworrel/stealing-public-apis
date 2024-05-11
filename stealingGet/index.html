@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main></main>
+    <script>
+        const main = document.querySelector("main")
+        fetch("http://localhost:5026")
+        .then((e) => e.json())
+        .then((e) => {
+            for(const item of e.data){
+                const p = document.createElement("p")
+                p.textContent = item.name
+                main.prepend(p)
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+span {
+    top: 0px;
+} 
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars */
+    width: 100vw;
+    height: 10000px;
+
+    background-image: url('https://www.infoescola.com/wp-content/uploads/2012/04/nascimento-de-venus-1000x525.jpg');
+    background-size: 90%;
+}
+.whitePlayer, .blackPlayer {
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+}
+.palco{
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    background-color: azure;
+    margin: 90px;
+    float: left;
+    padding: 10px 90px ;
+}
+
+.blue .cg-wrap {
+
+    background-image: url('../images/chess-elements/board/blue.svg');
+
+}
+.cg-wrap {
+
+    width: 520px !important;
+    height: 520px !important;
+}
+/* #chat{
+    z-index: 99;
+    display: none;
+    filter: opacity(0.9);
+    background-color: whitesmoke;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 400px;
+    height: 100vh;
+    box-shadow: 4px 4px 42px -10px black;
+    border-radius: 15px;
+} */
+#form{
+    width: 100%;
+    bottom: 0;
+    position: absolute; 
+}
+#form input{
+
+    width: 80%;
+    height: 55px;
+    float: left;
+}
+#form button{
+    width: 18%;
+    float: left;
+    height: 55px;
+}
+#messages{
+    padding: 10px;
+}
+.legenda{
+    word-break: break-word;
+    display: block;
+    text-align: center;
+    width: 100px;
+    background-color: #ffffffbf;
+    border-radius: 5px;
+    position: relative;
+    top: 73px;
+    left: -20px;
+}
