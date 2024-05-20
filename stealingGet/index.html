@@ -9,9 +9,10 @@
     <main></main>
     <script>
         const main = document.querySelector("main")
-        fetch("http://localhost:5026")
+        fetch("http://localhost:5280")
         .then((e) => e.json())
         .then((e) => {
+            // console.log(JSON.parse(e);
             for(const item of e.data){
                 const p = document.createElement("p")
                 p.textContent = item.name

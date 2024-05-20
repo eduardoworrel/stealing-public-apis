@@ -5,7 +5,7 @@ palco.classList.add("blue")
 palco.classList.add("merida")
 
 
-fetch("https://lichess.org/study/RePro1Fx/vfaEZeSI").then(e => e.json()).then( data =>{
+fetch("http://localhost:5280/lichess").then(e => e.json()).then( data =>{
     console.log(data)
     const board = document.createElement("div")
 

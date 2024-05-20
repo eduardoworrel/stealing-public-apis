@@ -5,7 +5,7 @@ palco.classList.add("blue")
 palco.classList.add("merida")
 
 
-fetch("https://www.chess.com/events/v1/api/game/2024-gct-superbet-poland-rapid-blitz/17/Wei_Yi-Praggnanandhaa_R").then(e => e.json()).then( data =>{
+fetch("http://localhost:5280/chess").then(e => e.json()).then( data =>{
     
     const board = document.createElement("div")
 
